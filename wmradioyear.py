@@ -36,7 +36,7 @@ days = st.sidebar.multiselect(
     default=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 )
 hour_range = st.sidebar.slider(
-    "Select hour range", 0, 23, (9, 17)
+    "Select hour range", 0, 24, (14, 22)
 )
 
 # Filter data based on user selections
